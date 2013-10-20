@@ -1,0 +1,25 @@
+{
+  "name": "flightJsHelloWorld",
+  "version": "0.0.0",
+  "authors": [
+    "stefanRitter <stefan@stefanritter.com>"
+  ],
+  "description": "flight.js from the ground up",
+  "main": "index.html",
+  "keywords": [
+    "flight.js"
+  ],
+  "license": "MIT",
+  "homepage": "github.com/stefanRitter/flightJsHelloWorld",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flight": "~1.1.1"
+  }
+}
