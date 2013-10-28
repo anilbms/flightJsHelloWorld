@@ -3,11 +3,19 @@ jQuery(function($) {
   'use strict';
 
   var helloWorld = flight.component(function() {
+ 
+  // click event handler
+  this.onClick = function() {
+    alert('you just clicked the h1');
+  };
 
-    console.log('my frist component constructor');
-    
+  // initialize
+  this.after('initialize', function() {
+    this.on('click', this.onClick);
   });
 
-  helloWorld.attachTo(document);
+});
 
+
+  helloWorld.attachTo('h1');
 });
